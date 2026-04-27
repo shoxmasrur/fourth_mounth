@@ -118,11 +118,30 @@ INSERT INTO lines_2 (line_name, stations_count, length_km, daily_passengers) VAL
 ('C3', 14, 18.0, 150000),
 ('D4', 7, 9.3, 60000),
 ('E5', 10, 13.7, 95000),
-('F6', 16, 21.4, 180000),
+('F6', 16, 21.4, 180000),x
 ('G7', 8, 10.0, 70000),
 ('H8', 11, 14.6, 110000),
 ('J9', 6, 8.1, 50000),
 ('K1', 13, 17.9, 140000);
+
+
+alter table lines_2 add age int after id
+
+
+
+
+insert into qosh(y_id, ism, daily_income) values (1, "Alisher", 1.300);
+insert into qosh(y_id, ism, ) values (2, "Sattor");
+insert into qosh(y_id, ism, daily_income) values (3, "Azam", 1.400);
+insert into qosh(y_id, ism, daily_income) values (1, "Alisher", 1.800);
+insert into qosh(y_id, ism,) values (4, "Baxtiyor");
+insert into qosh(y_id, ism, daily_income) values (3, "Azam", 1.700);
+
+
+
+
+
+
 
 
 

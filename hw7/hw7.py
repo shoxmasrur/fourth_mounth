@@ -1,0 +1,1 @@
+print("Uyga vazifani keyinroq qilaman")
